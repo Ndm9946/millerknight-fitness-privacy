@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="referrer" content="no-referrer">
+<meta name="description" content="How the Miller Knight Fitness app handles your data: what stays on your iPhone, what goes to your own iCloud, what a leaderboard group sees, and how to export or delete it all.">
+<title>Miller Knight Fitness — Privacy Policy</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --surface: #f4f5f7;
+    --text: #1b1c1f;
+    --muted: #4a4d55;
+    --border: #d5d8de;
+    --link: #0047a8;
+    --focus: #0047a8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #111214;
+      --surface: #1c1e22;
+      --text: #f1f2f4;
+      --muted: #b9bdc6;
+      --border: #3a3e46;
+      --link: #8cc4ff;
+      --focus: #8cc4ff;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 1.0625rem/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  }
+  .skip {
+    position: absolute; left: 1rem; top: -4rem;
+    background: var(--surface); color: var(--text); padding: .5rem .75rem; border-radius: .5rem;
+  }
+  .skip:focus { top: 1rem; }
+  header, main, footer { max-width: 42rem; margin: 0 auto; padding: 0 1rem; }
+  header { padding-top: 2.5rem; }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 .25rem; }
+  .effective { color: var(--muted); margin: 0 0 1.5rem; }
+  h2 { font-size: 1.3rem; line-height: 1.3; margin: 2.25rem 0 .5rem; padding-top: .5rem; border-top: 1px solid var(--border); }
+  h3 { font-size: 1.05rem; margin: 1.25rem 0 .25rem; }
+  p, ul { margin: .5rem 0 .9rem; }
+  ul { padding-left: 1.25rem; }
+  li { margin: .3rem 0; }
+  a { color: var(--link); text-decoration: underline; text-underline-offset: .15em; }
+  a:focus-visible, .skip:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; border-radius: 2px; }
+  .summary { background: var(--surface); border: 1px solid var(--border); border-radius: .75rem; padding: .75rem 1rem; }
+  .summary ul { margin: .25rem 0; }
+  nav ol { padding-left: 1.25rem; columns: 2 14rem; column-gap: 2rem; margin: .5rem 0 0; }
+  nav li { break-inside: avoid; }
+  footer { color: var(--muted); padding-top: 1.5rem; padding-bottom: 3rem; font-size: .95rem; }
+  @media (max-width: 30rem) { h1 { font-size: 1.6rem; } body { font-size: 1rem; } }
+</style>
+</head>
+<body>
+<a class="skip" href="#content">Skip to the policy</a>
+<header>
+  <h1>Miller Knight Fitness — Privacy Policy</h1>
+  <p class="effective">Effective 2 October 2026</p>
+</header>
+<main id="content">
+  <section class="summary" aria-labelledby="short">
+    <h2 id="short" style="border-top:0;margin-top:.25rem;padding-top:0">The short version</h2>
+    <ul>
+      <li>Everything you log stays in the app on your iPhone and Apple Watch. Your workout history can also be kept in
+        <strong>your own</strong> iCloud account, and you can save an encrypted backup wherever you choose. The
+        developer can't see any of it.</li>
+      <li>Health data the app reads from Apple Health is used only on your iPhone. It's never uploaded or shared — the
+        only way it leaves your iPhone is inside an encrypted backup file you choose to make, which only your
+        passphrase opens.</li>
+      <li>No analytics, no ads, no tracking, no third-party code and no servers. The developer collects no data.</li>
+      <li>You can export everything into an encrypted file, or delete everything, from Settings.</li>
+      <li>For adults (18+). Not a medical device.</li>
+    </ul>
+  </section>
+
+  <nav aria-labelledby="toc">
+    <h2 id="toc">Contents</h2>
+    <ol>
+      <li><a href="#workouts">Your workouts and iCloud</a></li>
+      <li><a href="#health">Apple Health</a></li>
+      <li><a href="#body">Body data, photos and Face ID</a></li>
+      <li><a href="#scan">The experimental body scan</a></li>
+      <li><a href="#lifestage">Pregnancy and postpartum mode</a></li>
+      <li><a href="#leaderboard">Leaderboard groups</a></li>
+      <li><a href="#watch">Apple Watch and the Lock Screen</a></li>
+      <li><a href="#export">Exporting your data</a></li>
+      <li><a href="#delete">Deleting your data</a></li>
+      <li><a href="#diagnostics">Diagnostics</a></li>
+      <li><a href="#nocollection">What we don't do</a></li>
+      <li><a href="#apple">Apple's services</a></li>
+      <li><a href="#adults">Adults only, and not medical advice</a></li>
+      <li><a href="#changes">Changes and contact</a></li>
+    </ol>
+  </nav>
+
+  <section aria-labelledby="workouts">
+    <h2 id="workouts">Your workouts and iCloud</h2>
+    <p>The app stores your training on your iPhone: your profile (name you choose, sex, birth year and month, height,
+      experience), programs, gyms and equipment, every set you log (exercise, weight, reps, effort, time), your
+      sessions, stretch routines and edits you make to the exercise library.</p>
+    <p>If you are signed in to iCloud, this training data is also kept in <strong>your own private iCloud
+      database</strong>, so it comes back on a new iPhone. Your birth month and session notes are stored there
+      encrypted. Only you can read your private iCloud data. The developer can't see it, and nobody else can. Apple
+      stores it under <a href="https://www.apple.com/legal/privacy/">Apple's privacy policy</a>.</p>
+    <p>The app never puts anything from Apple Health in iCloud, nor your body measurements (weight, body fat, tape
+      measurements, scan results), goals, food intake, readiness or photos. An automated test checks this on every
+      build of the app's tests, run before every release: it fails if such a field ever appears in the data the app
+      keeps in iCloud.</p>
+  </section>
+
+  <section aria-labelledby="health">
+    <h2 id="health">Apple Health</h2>
+    <p>With your permission, the app <strong>reads</strong> these from Apple Health:</p>
+    <ul>
+      <li>heart rate, resting heart rate and heart rate variability</li>
+      <li>respiratory rate, sleeping wrist temperature and blood oxygen</li>
+      <li>sleep</li>
+      <li>weight, body fat percentage and lean body mass</li>
+    </ul>
+    <p>They are used only on your iPhone, to work out readiness, recovery and body trends. The app never uploads them,
+      never shares them with anyone (including a leaderboard group), never uses them for advertising and never sells
+      them. The only way they leave your iPhone is inside an encrypted backup file you choose to make (see
+      <a href="#export">Exporting your data</a>), which only your passphrase opens.</p>
+    <p>The app <strong>writes</strong> only two things to Apple Health: your strength workouts, with their real start
+      and end times, and your body weight, only when you type it in and choose to save it. It never writes estimates.
+      It doesn't read steps, workouts from other apps, or any reproductive or clinical health records.</p>
+    <p>You can change or turn off this access at any time in the Health app (Sharing › Apps › Miller Knight
+      Fitness) or in iPhone Settings › Privacy &amp; Security › Health.</p>
+  </section>
+
+  <section aria-labelledby="body">
+    <h2 id="body">Body data, photos and Face ID</h2>
+    <p>Body measurements, goals, food intake and calorie estimates, readiness and anything else about your body are
+      kept in a separate store on your iPhone. That store is never synced to iCloud and is excluded from iCloud and
+      computer backups. It leaves your iPhone only inside an encrypted backup file you choose to make.</p>
+    <p>Progress photos are taken with the app's own camera screen (the app never opens your photo library). Each photo
+      is encrypted on your iPhone with a key kept in this iPhone's keychain and excluded from backups.</p>
+    <p>Face ID (or your passcode) is asked before the app shows your progress photos, the Me pane on the Body tab,
+      your body measurements and intake under Progress, your goals, the body scan and the pregnancy and postpartum
+      settings, and again every time you export, import or delete your data. The app locks them again a minute after
+      you leave it. The readiness card on Home is shown without Face ID. Face ID is handled by iOS; the app never
+      receives any face data.</p>
+    <p>Because body data and photos aren't in your backups, the encrypted export below is how you move them to a new
+      iPhone.</p>
+  </section>
+
+  <section aria-labelledby="scan">
+    <h2 id="scan">The experimental body scan</h2>
+    <p>The optional body-measurement scan uses the camera and depth sensor. Frames are processed on your iPhone and
+      discarded straight away; only the resulting measurements are kept, in the on-device body store. The scan is
+      clearly marked experimental and its numbers are estimates.</p>
+  </section>
+
+  <section aria-labelledby="lifestage">
+    <h2 id="lifestage">Pregnancy and postpartum mode</h2>
+    <p>If you turn this mode on (where available), the stage you choose stays on your iPhone — the only way it leaves
+      is inside an encrypted backup file you choose to make. It is never synced to iCloud, never shared with a
+      leaderboard group and never written to Apple Health. It adjusts which
+      exercises the app suggests; it is general fitness guidance, not medical advice.</p>
+  </section>
+
+  <section aria-labelledby="leaderboard">
+    <h2 id="leaderboard">Leaderboard groups</h2>
+    <p>Leaderboards are optional and off until you create or join a group.</p>
+    <ul>
+      <li><strong>Who sees it:</strong> a group is a shared space in the <strong>group owner's</strong> iCloud account.
+        Only people the owner adds (by their iCloud email address or phone number, at most 10 people including the
+        owner, all 18 or older) can open it. The owner knows who they invited; other members see the pseudonym you
+        choose.</li>
+      <li><strong>What is shared:</strong> one row per day with daily totals only, and only the ones you turn on, each
+        off until you choose: total weight lifted, gym minutes, whether you trained, and your streak. Plus your
+        pseudonym, which totals you share, the app version and the day you joined. Never your workouts or sets,
+        nothing from Apple Health, nothing about your body, no names or photos. Any number above zero shows you
+        trained that day.</li>
+      <li><strong>When it is sent:</strong> each day's totals are sent the first time the app runs unlocked after
+        midnight; a later correction is sent the same way. iCloud keeps when each row was saved, which is the moment
+        the app ran — not when you trained. The owner, as the iCloud account holding the group, can see those raw
+        records.</li>
+      <li><strong>Turning a total off</strong> removes it from every earlier day as well.</li>
+      <li><strong>Leaving and closing:</strong> leaving a group deletes your rows from it. The owner can remove anyone
+        and can close the group, which deletes it for everyone. Rows older than 400 days are deleted automatically.
+        If you are offline, this finishes the next time the app is online.</li>
+    </ul>
+  </section>
+
+  <section aria-labelledby="watch">
+    <h2 id="watch">Apple Watch and the Lock Screen</h2>
+    <p>The Watch app keeps the latest plan your iPhone sent and its own copy of every workout and set you log on the
+      Watch — it uses them to show what you lifted last time and to spot records. That copy stays on the Watch until
+      you use Delete my data, which erases it. Sets on their way to your iPhone also wait in a small queue on the
+      Watch; each one stays there for at least 30 days after your iPhone confirms it has it, and is removed the next
+      time the Watch app starts after that. The Watch app talks only to your own iPhone and has no iCloud of its
+      own.</p>
+    <p>During a workout the iPhone's Lock Screen can show your current set and heart rate; Settings › Hide numbers on
+      lock screen hides the numbers there, and VoiceOver doesn't read them out while it's on. Rest-timer alerts are
+      local notifications created on your iPhone.</p>
+  </section>
+
+  <section aria-labelledby="export">
+    <h2 id="export">Exporting your data</h2>
+    <p>Settings › Data › <strong>Export encrypted backup</strong> puts your training history, your body data (including
+      your readiness history, which holds the sleep, heart, breathing, wrist-temperature and blood-oxygen readings it
+      was worked out from, and weights read from Apple Health), your pregnancy and postpartum settings and your progress
+      photos into one <code>.wkvault</code> file, encrypted on your iPhone (AES-256-GCM, with a key made from a
+      passphrase of at least 12 characters using PBKDF2-HMAC-SHA256 with 600,000 rounds). You choose where the file goes
+      — somewhere you control, for example Files on this iPhone or AirDrop to your Mac; the app never uploads it. The
+      passphrase is never stored anywhere, so <strong>it can't be recovered</strong> — without it the file can't be
+      opened. Import from backup restores it on a new iPhone. The app reminds you weekly to make a fresh backup; you can
+      dismiss the reminder.</p>
+    <p>Settings › Data › <strong>Export training data (CSV)</strong> makes plain spreadsheet files of your training
+      history only (no body data or photos). They are not encrypted, so share them with care.</p>
+  </section>
+
+  <section aria-labelledby="delete">
+    <h2 id="delete">Deleting your data</h2>
+    <p>Settings › Privacy › <strong>Delete my data</strong> (after Face ID or your passcode, and two confirmations)
+      deletes:</p>
+    <ul>
+      <li>your training history on this iPhone <strong>and its copy in your iCloud</strong>;</li>
+      <li>your body data, progress photos and their encryption keys;</li>
+      <li>your leaderboard rows — you leave your group; if you own a group, it is closed for everyone and every
+        member's shared days are deleted;</li>
+      <li>the copy on your Apple Watch (the next time it connects to this iPhone).</li>
+    </ul>
+    <p>What stays: workouts and body weights the app saved to Apple Health stay in Health — delete them in the Health
+      app if you want. What the app read from Apple Health (weight, sleep, heart data) stays in Health and is read
+      again next time unless you turn off access. If this iPhone is offline or not signed in to iCloud, your iCloud copy
+      is deleted the next time this iPhone is online and signed in to iCloud with the app open — don't delete the app
+      before then. Deleting the app alone removes what is
+      on the iPhone, but not your iCloud copy or your leaderboard rows, so use Delete my data first.</p>
+  </section>
+
+  <section aria-labelledby="diagnostics">
+    <h2 id="diagnostics">Diagnostics</h2>
+    <p>Settings › Diagnostics shows counts and timings (for example how long logging a set takes, when iCloud last
+      synced, free storage) so problems can be spotted. They stay on your iPhone and never include a health value,
+      weight lifted, name or photo. You can export a diagnostics file and share it yourself if you want help; it holds
+      the same counts, timings, dates and versions, except free storage, which is only shown on screen. Nothing is
+      sent automatically.</p>
+  </section>
+
+  <section aria-labelledby="nocollection">
+    <h2 id="nocollection">What we don't do</h2>
+    <ul>
+      <li>No analytics, crash-reporting or advertising code, and no third-party code of any kind.</li>
+      <li>No tracking across apps or websites, and no ad identifiers.</li>
+      <li>No servers or accounts of our own: the developer receives none of your data.</li>
+      <li>No selling or sharing of data.</li>
+    </ul>
+  </section>
+
+  <section aria-labelledby="apple">
+    <h2 id="apple">Apple's services</h2>
+    <p>The app uses Apple's own services — iCloud, Apple Health, Face ID and, for testers, TestFlight — which Apple
+      runs under its own <a href="https://www.apple.com/legal/privacy/">privacy policy</a>. If you test the app with
+      TestFlight, Apple may pass crash reports and any feedback you send to the developer; they are used only to fix
+      the app.</p>
+  </section>
+
+  <section aria-labelledby="adults">
+    <h2 id="adults">Adults only, and not medical advice</h2>
+    <p>The app is for adults (18 or older). It is not a medical device. Readiness, sleep, body-fat and calorie numbers
+      are estimates, and exercise suggestions are general fitness information. Check with a doctor before starting a
+      new program and before making any medical decision, especially if you are pregnant, recently gave birth, or
+      have a health condition.</p>
+  </section>
+
+  <section aria-labelledby="changes">
+    <h2 id="changes">Changes and contact</h2>
+    <p>If this policy changes, the new version will be posted on this page with a new effective date. Questions or
+      requests: <a href="mailto:nathaniel9946@yahoo.com">nathaniel9946@yahoo.com</a>. Because the developer holds none
+      of your data, you can see, export and delete it yourself at any time from the app's Settings.</p>
+  </section>
+</main>
+<footer>
+  <p>Miller Knight Fitness · Privacy Policy · effective 2 October 2026</p>
+</footer>
+</body>
+</html>
